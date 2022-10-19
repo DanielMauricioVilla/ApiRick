@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x:hidden;
+}
+
+.body{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    background: url(img/F.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.titulo{
+    width: 30%;
+    height: 40%;
+}
+
+#filter{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 2%;
+    margin-right: 3%;
+}
+
+.fa-solid{
+    color: black;
+    margin-right: 1%;
+}
+
+.buscador{
+    width: 25%;
+    height: 10%;
+    border-radius: 20px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.separador{
+    width: 100%;
+    height: 40px;
+    background-color: #235311 ;
+}
+
+
+main{
+    width: 100%;
+    background: url(img/G.jpg);
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+#character{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.divCard {
+    width: 40%;
+    height: 300px;
+    background-color: #506469;
+    margin: 10px;
+    color: white;
+    display: flex;
+    gap: 9%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.divText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #2e2e3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #62787e;
+}
+
+
+
